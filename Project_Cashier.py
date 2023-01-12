@@ -52,4 +52,9 @@ class Transaction:
         print(f'Total harga: Rp{total_price}')
         #Setelah semua item diterima, fungsi akan mengecek apakah total harga melebihi batas diskon tertentu. Jika ya, maka diskon akan diterapkan pada total harga. Dalam kode yang diberikan, jika total harga melebihi Rp 200.000, akan diberikan diskon 5%. Jika melebihi Rp 300.000, akan diberikan diskon 8%. Jika melebihi Rp 500.000, akan diberikan diskon 10%. Setelah diskon diterapkan, fungsi akan mengeluarkan total harga belanja dengan format Rupiah.
 
+    def choose_payment_method(self, method):  #Fungsi ini digunakan untuk memilih metode pembayaran yang dikehendaki oleh konsumen
+        self.payment_method = method
+        
+    def get_payment_method(self): #Fitur ini digunakan untuk mengetahui metode pembayaran apa yang digunakan oleh konsumen untuk 
+        return self.payment_method
 
