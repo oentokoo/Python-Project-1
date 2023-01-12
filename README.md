@@ -28,3 +28,8 @@ Program Python tersebut memiliki Requierments sebagai berikut :
 
 #Test Case
 
+<img width="1440" alt="Screenshot 2023-01-12 at 23 13 47" src="https://user-images.githubusercontent.com/122088142/212122983-3105ec25-c37d-4a60-b8ba-c58e07a5e1ae.png">
+
+<img width="1440" alt="Screenshot 2023-01-12 at 23 13 58" src="https://user-images.githubusercontent.com/122088142/212123032-16ceeab9-6857-4cac-99d2-b6ffc1f25627.png">
+
+<img width="1440" alt="Screenshot 2023-01-12 at 23 14 04" src="https://user-images.githubusercontent.com/122088142/212123093-b638d753-6e1f-40a8-9a8c-ba339bdabdac.png">
