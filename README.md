@@ -7,16 +7,24 @@ Project Python ini merupakan project pertama yang memiliki case latar belakang b
 
 #Requirements Program 
 
-Program Python tersebut memiliki 
+Program Python tersebut memiliki Requierments sebagai berikut :
+
+1. Membuat objek dari class Transaction yang akan digunakan sebagai ID transaksi
+2. Memasukkan nama item, jumlah item, dan harga barang yang akan dibeli menggunakan method add_item
+3. Mengubah nama, jumlah, dan harga item yang sudah ditambahkan ke dalam list items menggunakan method update_item_name, update_item_qty, dan update_item_price
+4. Menghapus item dari list items menggunakan method delete_item atau menghapus semua item dengan method reset_transaction
+5. Memeriksa kebenaran data transaksi menggunakan method check_order
+6. Menghitung total harga belanja dan memberikan diskon jika total belanja melebihi batas tertentu menggunakan method total_price
 
 #Alur Program
 
-Customer membuat ID transaksi dengan membuat objek dari class Transaction
-Customer memasukkan nama item, jumlah item, dan harga barang dengan menggunakan method add_item
-Jika terjadi kesalahan dalam memasukkan data, customer bisa menggunakan method update_item_name, update_item_qty, atau update_item_price untuk mengubah data yang salah
-Jika ingin membatalkan transaksi, customer bisa menggunakan method delete_item untuk menghapus item tertentu atau reset_transaction untuk menghapus semua item
-Customer dapat mengecek data transaksi dengan method check_order yang akan mengeluarkan pesan kesalahan atau pemesanan yang benar
-Customer dapat menghitung total harga belanja dengan method total_price yang akan memberikan diskon jika total belanja melebihi batas tertentu.
+1. Customer membuat ID transaksi dengan membuat objek dari class Transaction
+2. Customer memasukkan nama item, jumlah item, dan harga barang dengan menggunakan method add_item
+3. Jika terjadi kesalahan dalam memasukkan data, customer bisa menggunakan method update_item_name, update_item_qty, atau update_item_price untuk mengubah data yang salah
+4. Jika ingin membatalkan transaksi, customer bisa menggunakan method delete_item untuk menghapus item tertentu atau reset_transaction untuk menghapus semua item
+5. Customer dapat mengecek data transaksi dengan method check_order yang akan mengeluarkan pesan kesalahan atau pemesanan yang benar
+6. Customer dapat menghitung total harga belanja dengan method total_price yang akan memberikan diskon jika total belanja melebihi batas tertentu.
+7. Customer dapat menambahkan metode pembayaran yang ingin digunakan 
 
 #Test Case
 
